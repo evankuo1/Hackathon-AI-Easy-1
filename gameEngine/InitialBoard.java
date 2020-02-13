@@ -14,11 +14,11 @@ public class InitialBoard {
 	
 	public InitialBoard() {
 		
-			width = 1;
+			width = 3;
 			height = 5;
 			
 			Food food = new Food();
-			createObject(0, 4, food);
+			createObject(1, 4, food);
 			
 		//	Enemy enemy1 = new Enemy();
 		//	createObject(0, 0, enemy1);
@@ -54,7 +54,7 @@ public class InitialBoard {
 			createObject(2, 1, nothingX2Y1);
 			*/
 			BoardObject player = new Player();
-			createObject(0, 0, player);
+			createObject(2, 0, player);
 	}
 	
 	void createObject(int x, int y, Object obj) {

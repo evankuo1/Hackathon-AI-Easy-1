@@ -54,7 +54,7 @@ public class InitialBoard {
 			createObject(2, 1, nothingX2Y1);
 			*/
 			BoardObject player = new Player();
-			createObject(0, 0, player);
+			createObject(0, 0, player); 
 	}
 	
 	void createObject(int x, int y, Object obj) {
